@@ -77,7 +77,7 @@
                         <hr />
                     </div>
                     <div class="col-12"></div>
-                    <h2 class="mb-4">Shipping Details</h2>
+                    <h2 class="mb-4">Detail Pengiriman</h2>
                 </div>
                 <form action="{{ route('checkout') }}" id="locations" enctype="multipart/form-data" method="POST">
                     @csrf
